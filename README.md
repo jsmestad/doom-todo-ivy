@@ -3,6 +3,11 @@ Display TODO, FIXME, or anything else in an ivy buffer. Extracted from doom-emac
 
 ## Install
 
+This package depends on:
+
+* ivy
+* projectile
+
 ### Manual
 
 ```lisp
