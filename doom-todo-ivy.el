@@ -4,7 +4,7 @@
 
 ;; Author: Justin Smestad <justin.smestad@gmail.com>
 ;; Homepage: https://github.com/jsmestad/doom-todo-ivy
-;; Version: 0.1.0
+;; Version: 0.1.1
 ;; Package-Requires: ((emacs "25.1") (projectile "0.10.0") (ivy))
 ;; Keywords:
 
