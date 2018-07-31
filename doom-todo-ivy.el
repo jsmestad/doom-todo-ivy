@@ -72,7 +72,7 @@
                                  "\\):?\\s-*\\(.+\\)")
                          x)
                       (error
-                       (message! (red "Error matching task in file: (%s) %s"
+                       (message (red "Error matching task in file: (%s) %s"
                                       (error-message-string ex)
                                       (car (split-string x ":"))))
                        nil))
