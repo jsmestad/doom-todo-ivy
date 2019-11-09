@@ -86,7 +86,7 @@
   "Jump to the file X and line of the current task."
   (cl-destructuring-bind (label type file line) x
     (with-ivy-window
-      (find-file (expand-file-name file (doom-project-root)))
+      (find-file (expand-file-name file (projectile-project-root)))
       (goto-char (point-min))
       (forward-line (1- (string-to-number line)))
       (when (search-forward type (line-end-position) t)
